@@ -1,0 +1,2 @@
+mercado 1;000;rua 1
+mercado 2;001;rua 2

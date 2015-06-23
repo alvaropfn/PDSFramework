@@ -1,0 +1,8 @@
+basico;000;000
+carnes;001;000
+frutas;002;000
+verduras;003;000
+basico;000;001
+carnes;001;001
+frutas;002;001
+verduras;003;001
