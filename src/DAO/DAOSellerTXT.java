@@ -35,6 +35,8 @@ public class DAOSellerTXT implements DAOSeller {
 		
 		for (String tmp : income)
 		{
+			if(tmp.indexOf("#") >=0)continue;
+			
 			line = PApplet.splitTokens(tmp, ";");
 			
 			name = line[0];

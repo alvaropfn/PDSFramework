@@ -5,8 +5,8 @@ import Domain.Product;
 
 public interface DAOProduct
 {
-	public ArrayList<Product> getProducts();
-	public float getPrice();
-	public String getName();
-	public int getCode();
+	public ArrayList<Product> getProducts(int sellerID, int categoryID);
+	public float getPrice(Product p);
+	public String getName(Product p);
+	public int getCode(Product p);
 }

@@ -16,10 +16,8 @@ public class DAOCategoryTXT implements DAOCategory
 		return null;
 	}
 
-	
 	public ArrayList<Category> getCategories(int sid)
 	{
-		
 		this.categories = new ArrayList<Category>();
 		this.sellerID = sid;
 		
@@ -33,8 +31,9 @@ public class DAOCategoryTXT implements DAOCategory
 		
 		for(String tmp : income)
 		{
-			
 			line = PApplet.splitTokens(tmp, ";");
+			if(line[0].indexOf("#") >=0)continue;
+			
 			if(Integer.parseInt(line[2]) == sellerID)
 			{
 				title = line[0];
