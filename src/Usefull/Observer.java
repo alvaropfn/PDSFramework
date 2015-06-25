@@ -1,4 +1,4 @@
-package Patterns;
+package Usefull;
 import Domain.Notice;
 
 public interface Observer

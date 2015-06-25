@@ -1,4 +1,4 @@
-package Patterns;
+package Usefull;
 
 import java.util.ArrayList;
 import Domain.Notice;

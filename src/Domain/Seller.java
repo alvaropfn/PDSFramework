@@ -1,7 +1,7 @@
 package Domain;
 import java.util.ArrayList;
 
-import Patterns.Observable;
+import Usefull.Observable;
 
 
 public abstract class Seller extends Observable

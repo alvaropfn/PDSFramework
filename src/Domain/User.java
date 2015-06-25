@@ -1,7 +1,7 @@
 package Domain;
 import java.util.ArrayList;
 
-import Patterns.Observer;
+import Usefull.Observer;
 
 
 public abstract class User implements Observer

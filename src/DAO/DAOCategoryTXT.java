@@ -12,7 +12,10 @@ public class DAOCategoryTXT implements DAOCategory
 	
 	public Category getCagetory(int id)
 	{
-		
+		for (Category category : categories)
+		{
+			if(category.getID() == id) return category;
+		}
 		return null;
 	}
 
@@ -22,7 +25,7 @@ public class DAOCategoryTXT implements DAOCategory
 		this.sellerID = sid;
 		
 		String[] income, line;
-		String filename = "C:/Users/Alvaro/Documents/GitHub/PDSFramework/src/DAO/Categories.txt";
+		String filename = "C:/Users/Alvaro/Documents/GitHub/PDSFramework/src/Usefull/Categories.txt";
 		
 		income = new PApplet().loadStrings(filename);
 		

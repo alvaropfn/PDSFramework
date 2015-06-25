@@ -7,7 +7,7 @@ carnes;001;000
 frutas;002;000
 verduras;003;000
 #
-#mercado 000
+#mercado 001
 #
 basico;004;001
 carnes;005;001

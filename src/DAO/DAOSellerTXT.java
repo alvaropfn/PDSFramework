@@ -6,8 +6,6 @@ import processing.core.*;
 import Domain.Seller;
 import Domain.SellerConcret;
 
-
-
 public class DAOSellerTXT implements DAOSeller {
 	ArrayList<Seller> sellers;
 	
@@ -25,7 +23,7 @@ public class DAOSellerTXT implements DAOSeller {
 		sellers = new ArrayList<Seller>();
 		
 		String[] income, line;
-		String filename = "C:/Users/Alvaro/Documents/GitHub/PDSFramework/src/DAO/Sellers.txt";
+		String filename = "C:/Users/Alvaro/Documents/GitHub/PDSFramework/src/Usefull/Sellers.txt";
 		
 		income = new PApplet().loadStrings(filename);
 		

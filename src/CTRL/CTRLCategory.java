@@ -5,5 +5,6 @@ import Domain.Category;
 
 public interface CTRLCategory
 {
-	public ArrayList<Category> getCategories();
+	public Category getCagetory(int id);
+	public ArrayList<Category> getCategories(int sid);
 }

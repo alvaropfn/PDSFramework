@@ -1,4 +1,4 @@
-package Patterns;
+package Usefull;
 
 public interface Payment {
 	

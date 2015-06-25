@@ -15,7 +15,7 @@ public class DAOProductTXT implements DAOProduct
 		products = new ArrayList<Product>();
 		
 		String[] income, line;
-		String filename = "C:/Users/Alvaro/Documents/GitHub/PDSFramework/src/DAO/Products.txt"; 
+		String filename = "C:/Users/Alvaro/Documents/GitHub/PDSFramework/src/Usefull/Products.txt"; 
 		
 		income = new PApplet().loadStrings(filename);
 		
